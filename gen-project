@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+#
+# gen-project
+# Quickly generate a C, C++, or Python project
 
 print-help() {
   echo "Usage: $SCRIPTNAME [-l <lang>] [-m <filename>] [-c <compiler>] <dir>"
